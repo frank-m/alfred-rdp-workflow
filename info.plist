@@ -34,7 +34,7 @@
 				<key>escaping</key>
 				<integer>4</integer>
 				<key>script</key>
-				<string>ruby open_desktops.rb "{query}"</string>
+				<string>ruby open_desktop.rb "{query}"</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
