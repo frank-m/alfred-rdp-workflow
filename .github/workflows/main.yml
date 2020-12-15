@@ -11,11 +11,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build Alfred Workflow
-    - id: alfred_builder
-      uses: mperezi/build-alfred-workflow@v1
-      with:
-        workflow_dir: src
-        exclude_patterns: '*.pyc *__pycache__/*'
+        id: alfred_builder
+        uses: mperezi/build-alfred-workflow@v1
+        with:
+          workflow_dir: src
+          exclude_patterns: '*.pyc *__pycache__/*'
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
