@@ -1,6 +1,6 @@
 # alfred-rdp-workflow
 Simple workflow to open Bookmarks from Microsoft Remote Desktop, based on https://github.com/ctwise/alfred-workflows/tree/master/remote-desktop
-*This can only be used if you have Alfred (https://www.alfredapp.com/) installed and have the Powerpack as well.* 
+**This can only be used if you have Alfred (https://www.alfredapp.com/) installed and have the Powerpack as well.**
 
 # Why?
 The version that was in the source repository was no longer maintained and was no longer functional. It also relied on using osascript to open 'Microsoft Remote Desktop', bring it to the foreground and simulate keypresses to open the session. This was not always working flawlessly.
