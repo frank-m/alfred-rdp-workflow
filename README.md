@@ -11,3 +11,5 @@ Two parts:
 
 # Installation
 You can compile it from source or download the latest binary from the releases page.
+
+https://github.com/frank-m/alfred-rdp-workflow/releases
