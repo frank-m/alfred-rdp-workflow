@@ -16,7 +16,7 @@ jobs:
       uses: mperezi/build-alfred-workflow@v1
       with:
         workflow_dir: .
-        exclude_patterns: '.git/* .github/* .gitignore'
+        exclude_patterns: '.git/* .github/* .gitignore LICENSE'
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
