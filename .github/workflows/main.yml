@@ -15,7 +15,7 @@ jobs:
       id: alfred_builder
       uses: mperezi/build-alfred-workflow@v1
       with:
-        workflow_dir: src
+        workflow_dir: .
         exclude_patterns: '*.pyc *__pycache__/*'
     - name: Create Release
       id: create_release
