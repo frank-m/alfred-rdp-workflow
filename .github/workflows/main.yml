@@ -16,7 +16,7 @@ jobs:
       uses: mperezi/build-alfred-workflow@v1
       with:
         workflow_dir: .
-        exclude_patterns: '*.pyc *__pycache__/*'
+        exclude_patterns: '.git/*'
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
