@@ -7,7 +7,7 @@ The version that was in the source repository was no longer maintained and was n
 
 # How?
 Two parts:
-- list_desktops.rb: Accepts one command line argument, the hostname, and uses the build in script option of the Microsoft Remote Desktop App to display the bookmarks in csv format. Then it searches for the hostname and returns that back to alfred via ./alfred_feedback.rb. This allows the user to search through the different bookmarks.
+- list_desktops.rb: Accepts one command line argument, the hostname, and uses the build in script option of the Microsoft Remote Desktop App to display the bookmarks in csv format. Then it searches for the hostname and returns that back to alfred via [alfred_feedback.rb](https://github.com/lrrfantasy/alfred-feedback-xml-generation). This allows the user to search through the different bookmarks.
 
 ![rdp alfread search](https://imgur.com/ubdLdBw.gif)
 
