@@ -11,12 +11,11 @@ Two parts:
 
 ![rdp alfread search](https://imgur.com/ubdLdBw.gif)
 
-- open_desktop.rb: Accepts one command line argument, the hostname, and uses the build in script option of the Microsoft Remote Desktop App to display the bookmarks in csv format. Then it searches for the hostname and uses the export option of the Microsoft Remote Desktop App to get the rdp:// url. It then calls the rdp url and the session opens.
+- open_desktop.rb: Accepts one command line argument, the ID of the bookmark, and uses the build in `--script bookmark export` option of the Microsoft Remote Desktop App to get the rdp:// url. It then calls the rdp url and the session opens.
 
 # Todo:
 
-- Merge code into one file as there is code duplication now.
-- Add tests
+- Add testing/linting
 
 # Installation
 You can compile it from source or download the latest binary from the releases page.
