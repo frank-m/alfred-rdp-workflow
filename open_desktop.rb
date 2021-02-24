@@ -13,7 +13,7 @@ def export_bookmark(query, mrdpApp)
 end
 
 def open_rdp_uri(bookmark_uri)
-  `open '#{bookmark_uri.strip}'`
+  `open '#{bookmark_uri.strip.gsub('rdp://', 'rdp:///')}'`
 rescue StandardError => e
   warn "Something went wrong while while calling \"open #{bookmark_uri.strip}\"."
   warn "Perhaps Microsoft Remote Desktop App is not registered to open 'rdp://' uris?"
